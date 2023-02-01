@@ -1,6 +1,6 @@
 body{
-    background-color: rgb(51, 51, 51);
-    color: aliceblue;
+    background-color: rgb(49, 57, 60);
+    color: white;
     font-family: 'Roboto Slab', serif;
     margin: 0;
 }
@@ -11,17 +11,36 @@ article#intro{
     opacity: 100px; /* check out opacity on css*/
     display: flex;
     align-items: flex-start;
+    justify-content: flex-end;
     width: flex;
     border-radius: 30px;
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 article#intro > img{
-    object-fit: scale-down;
+    
     width: 100px;
-    display: flex;
+    display: inline-flex;
     justify-content: flex-start;
-    align-items: flex-end;
-    position: inherit;
+    align-items: center;
+    flex-direction: row;
+}
+
+div.row > h6{
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div.icons > span{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    font-size: 250%;
+    line-height: 1.2em;
 }
 
 footer{
