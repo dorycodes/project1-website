@@ -5,6 +5,15 @@ body{
     margin: 0;
 }
 
+article#intro{
+    color: black;
+    background-color: white;
+    opacity: 100px; /* check out opacity on css*/
+    display: flex;
+    align-items: flex-start;
+    width: flex;
+}
+
 footer{
     position: absolute;
     bottom: 0;
@@ -14,4 +23,8 @@ footer{
     padding: 0;
     margin: 0;
     align-items: center;
+}
+
+footer > p{
+    font-size: 14px;
 }
