@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(49, 57, 60);
+    background-color: rgb(48, 57, 61);
     color: white;
     font-family: 'Roboto Slab', serif;
     margin: 0;
@@ -10,11 +10,21 @@ article#intro{
     background-color: white;
     opacity: 100px; /* check out opacity on css*/
     display: flex;
-    align-items: flex-start;
     justify-content: flex-end;
     width: flex;
     border-radius: 30px;
     display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+article#story{
+    color: black;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    width: flex;
+    border-radius: 30px;
     flex-direction: row;
     align-items: center;
 }
