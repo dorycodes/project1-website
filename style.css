@@ -12,6 +12,16 @@ article#intro{
     display: flex;
     align-items: flex-start;
     width: flex;
+    border-radius: 30px;
+}
+
+article#intro > img{
+    object-fit: scale-down;
+    width: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    position: inherit;
 }
 
 footer{
